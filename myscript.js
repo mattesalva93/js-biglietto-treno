@@ -11,9 +11,11 @@ console.log (ticketprice)
 
 if (inputage <= 17){
     finalprice = (ticketprice - ((ticketprice *20)/100));
+    console.log (finalprice)
     console.log (finalprice.toFixed(2))
 }else if(inputage >= 65){
     finalprice = (ticketprice - ((ticketprice *40)/100));
+    console.log (finalprice)
     console.log (finalprice.toFixed(2))
 }else{
     console.log (ticketprice.toFixed(2))
